@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Amor pela Leitura</title>
+    <style>
+        /* Estilos gerais para um design bonito e atrativo */
+        body {
+            font-family: 'Georgia', serif; /* Fonte serifada para ar literário e elegante */
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to bottom, rgb(245, 245, 220), rgb(210, 180, 140)); /* Gradiente RGB bege-marrom para fundo de páginas antigas */
+            color: #2c1a1d;
+            line-height: 1.7;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #8B4513; /* Hex marrom terroso para título principal, evocando capas antigas */
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1); /* Sombra sutil para destaque */
+            letter-spacing: 2px;
+        }
+        h2 {
+            color: #5d4037; /* Hex marrom chocolate para subtítulos, simbolizando profundidade literária */
+            text-align: left;
+            font-size: 1.8rem;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #d7ccc8; /* Linha decorativa */
+            padding-bottom: 8px;
+        }
+        p {
+            text-align: justify; /* Justificado para legibilidade profissional */
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .center {
+            text-align: center; /* Alinhamento central para destaques */
+            font-style: italic;
+            color: #6d4c41;
+            background-color: rgba(255, 253, 231, 0.6); /* Fundo semi-transparente como papel */
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .justify {
+            text-align: justify; /* Reforço para justificado */
+        }
+        /* Caixa para o poema: atrativa com bordas arredondadas e sombra */
+        .poem {
+            background-color: #fffaf0; /* Fundo creme claro como página de livro */
+            padding: 25px;
+            border: 1px solid #d7ccc8;
+            margin: 30px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Sombra para profundidade */
+            max-width: 700px;
+        }
+        .poem h3 {
+            color: #7e57c2; /* Hex roxo para título do poema, representando imaginação */
+            text-align: center;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+        }
+        /* Estilos para imagens e galeria: hover para chamar atenção */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+        }
+        img:hover {
+            transform: scale(1.05); /* Zoom leve no hover para interatividade */
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+        }
+        figure {
+            margin: 15px;
+            text-align: center;
+        }
+        figcaption {
+            font-style: italic;
+            color: #5d4037;
+            margin-top: 10px;
+            font-size: 0.95rem;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .gallery figure {
+            flex: 1 1 300px; /* Base para responsividade */
+            max-width: 300px;
+        }
+        /* Responsividade: 1 coluna em mobile, 2-3 em desktop */
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            .gallery { flex-direction: column; align-items: center; }
+            .gallery figure { max-width: 100%; flex: none; }
+        }
+        @media (min-width: 601px) and (max-width: 1200px) {
+            .gallery figure { flex: 1 1 45%; } /* 2 colunas */
+        }
+        @media (min-width: 1201px) {
+            .gallery figure { flex: 1 1 30%; } /* 3 colunas */
+        }
+    </style>
+</head>
+<body>
+    <!-- Título principal com cor hex -->
+    <h1>Meu Amor pela Leitura</h1>
+    
+    <!-- Parágrafo com quebra de linha <br> e alinhamento justify -->
+    <p class="justify">A leitura é uma das minhas maiores paixões, um portal para mundos imaginários e lições de vida. Desde criança, devoro livros de fantasia e mistério, onde cada página vira uma aventura.<br>Esses universos me transportam, estimulando a criatividade e o autoconhecimento de forma única.</p>
+    
+    <!-- Alinhamento central para destaque -->
+    <p class="center">Ler não é só um hobby, é uma jornada que enriquece a alma e expande horizontes.</p>
+    
+    <!-- Explicação de psicologia das cores -->
+    <p>Escolhi este tema porque reflete meu amor pela literatura, que desperta imaginação e reflexão. Em termos de psicologia das cores, o roxo (#7e57c2) representa meu humor atual de curiosidade e introspecção. Ele evoca criatividade, mistério e espiritualidade, perfeito para o encanto dos livros, criando uma atmosfera inspiradora sem ser sobrecarregada.</p>
+    
+    <!-- Seção de imagem principal: SUBSTITUA "Imagem_aqui" pelo nome do seu arquivo PNG/JPG (ex: "livro-aberto.png"). Coloque a imagem na mesma pasta do HTML. -->
+    <h2>Um Livro, Mil Mundos</h2>
+    <p>Um livro aberto é o começo de infinitas histórias.</p>
+    <img src="https://i.pinimg.com/1200x/f1/24/16/f1241656cc29ab1ee93a844b0af06715.jpg" alt="Um livro aberto em uma mesa acolhedora" style="display: block; margin: 20px auto; max-width: 600px;">
+    
+    <!-- Seção das 3 cores com exemplos em sites -->
+    <h2>Cores e Seu Impacto na Experiência Literária</h2>
+    <p class="justify">Escolhi três cores para este projeto: azul (#000080), vermelho (#FF0000) e verde (rgb(0, 128, 0)). O azul transmite calma e confiança, ideal para sites de livrarias em seções de resenhas ou fundos de páginas de leitura, convidando à imersão serena. O vermelho estimula paixão e urgência, perfeito para promoções em e-commerces de livros como "Adquira Agora", criando excitação para best-sellers. O verde representa crescimento e frescor, ótimo para blogs literários em elementos de desenvolvimento pessoal ou artigos sobre autoajuda, promovendo equilíbrio e inspiração.</p>
+    
+    <!-- Poema com <br>, cor hex no título, fundo RGB no body, alinhamentos -->
+    <h2>Versos Entre Páginas</h2>
+    <div class="poem">
+        <h3>O Encanto das Palavras</h3>
+        <p style="text-align: center;">Nas páginas amareladas, mundos se desdobram,<br>
+        Heróis surgem do silêncio, aventuras chamam.<br>
+        Cada linha um sussurro, cada capítulo um sonho,<br>
+        E no fim da leitura, o coração se transforma.</p>
+    </div>
+    
+    <!-- Galeria responsiva com <figure> e <figcaption>: SUBSTITUA cada "Imagem_aqui" pelo nome do seu arquivo PNG/JPG (ex: "fantasia.png"). Coloque todas as 6 imagens na mesma pasta do HTML. -->
+    <h2>Galeria de Inspirações Literárias</h2>
+    <p>Imagens que capturam gêneros e momentos favoritos na leitura. Passe o mouse para uma visão mais próxima.</p>
+    <div class="gallery">
+        <!-- Imagem 1 da galeria: SUBSTITUA "Imagem_aqui" pelo nome real (ex: "fantasia.png"). -->
+        <figure>
+            <img src="https://intrinseca.com.br/wp-content/uploads/2024/06/facebook-6.png" alt="Capa de livro de fantasia">
+            <figcaption>Mundos de Fantasia Épica</figcaption>
+        </figure>
+        <!-- Imagem 2 da galeria: SUBSTITUA "Imagem_aqui" pelo nome real (ex: "misterio.png"). -->
+        <figure>
+            <img src="https://i.pinimg.com/736x/4b/ce/e7/4bcee7611e05291f20c3227ebc1c7e73.jpg" alt="Livro de mistério">
+            <figcaption>Enigmas de Mistério</figcaption>
+        </figure>
+        <!-- Imagem 3 da galeria: SUBSTITUA "Imagem_aqui" pelo nome real (ex: "romance.png"). -->
+        <figure>
+            <img src="https://i.pinimg.com/736x/9d/fa/f7/9dfaf77b62484ae4a207006820ef183c.jpg" alt="Romance literário">
+            <figcaption>Histórias de Romance</figcaption>
+        </figure>
+        <!-- Imagem 4 da galeria: SUBSTITUA "Imagem_aqui" pelo nome real (ex: "aventura.png"). -->
+        <figure>
+            <img src="https://i.pinimg.com/736x/8d/98/af/8d98afa42c2b97cf90025a14c051ac92.jpg" alt="Aventura em livros">
+            <figcaption>Aventuras Inesquecíveis</figcaption>
+        </figure>
+        <!-- Imagem 5 da galeria: SUBSTITUA "Imagem_aqui" pelo nome real (ex: "classico.png"). -->
+        <figure>
+            <img src="https://i.pinimg.com/736x/90/ff/fb/90fffbee1a7c87cc7eb2bda44f475505.jpg" alt="Clássicos da literatura">
+            <figcaption>Clássicos Eternos</figcaption>
+        </figure>
+        <!-- Imagem 6 da galeria: SUBSTITUA "Imagem_aqui" pelo nome real (ex: "biblioteca.png"). -->
+        <figure>
+            <img src="https://i.pinimg.com/736x/d8/a1/c4/d8a1c4b9ed800d31b73f732255b61f9a.jpg" alt="Biblioteca acolhedora">
+            <figcaption>Cantos de Leitura</figcaption>
+        </figure>
+    </div>
+    
+    <!-- Exemplo de formatação inline com cor RGB -->
+    <p style="color: rgb(139, 69, 19); background-color: rgba(255, 235, 205, 0.8); padding: 15px; border-radius: 8px; text-align: center; margin-top: 30px;">Que cada livro lido seja uma porta para novos horizontes.</p>
+</body>
+</html>
